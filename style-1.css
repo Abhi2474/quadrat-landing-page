@@ -1,0 +1,107 @@
+.mid-3{
+	width: 75vw;
+	margin-inline: auto;
+	margin-block: 6rem;
+}
+
+.mid-3 h1{
+	font-size: 2.5rem;
+}
+
+.mid-3-cards{
+	display: flex;
+	gap: 25px;
+}
+
+.mid-3-card{
+	border: 0.5px solid #333;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.mid-3-card p{
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 156%;
+	padding-inline: 2px;
+}
+
+.mid-3-card h2{
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+.mid-3-card-btn{
+	border: 0.5px solid #333;
+	background-color: transparent;
+	padding: 10px;
+	color: #61BAFF;
+	border-radius: 10px;
+	font-size: small;
+}
+
+.mid-4-heading{
+	margin-inline: auto;
+	width: 74vw;
+	font-size: 2.5rem;
+}
+
+.midPara-ul{
+	 list-style: none;
+	 display: flex;
+	 flex-direction: column;
+	 gap: 20px;
+}
+
+.midPara-article h1{
+	font-size: 5rem;
+	margin: 0;
+}
+
+.midPara-article p{
+	width: 70%;
+	line-height: 120%;
+}
+
+.midPara-ul li{
+	 display: flex;
+	 gap: 20px;
+	 align-items: center;
+	 font-size: 1.8rem;
+	 font-weight: 500;
+}
+
+.div-box{
+	width: 56px;
+    height: 4px;
+    margin-right: 40px;
+    background-color: #61baff;
+}
+
+.mid-5{
+	width: 75vw;
+	margin: 6rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mid-5-link{
+	display:  flex;
+	gap: 50px;
+}
+
+.mid-5-link a{
+	color: white;
+}
+
+.mid-5-link a:hover{
+	text-decoration: none;
+}
+
+.midPara-ul img{
+	width: 80%;
+}
+
+.mid-5-lists{
+	/* height: 100vh; */
+}

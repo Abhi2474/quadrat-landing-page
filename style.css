@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+.main{
+	position: relative;
+}
+
+.mainImg{
+	background-image: url('pics/mainimage.jpg') ;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 80vh;
+	background-size: cover;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.582);
+}
+
+nav{
+	position: fixed;
+	/* background-color: transparent; */
+	top: -12px;
+	left: 50px;
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+nav h2{
+	font-size: 2rem;
+}
+
+#nav-links{
+	list-style: none;
+	display: flex;
+	gap: 50px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#nav-links li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #61BAFF;
+	transition: color 0.4s ease-in-out;
+}
+
+.launchbtn{
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding:  14px 25px;
+	transition: all 0.4s ease-in;
+}
+
+.launchbtn:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+.background-image-text{
+	position: absolute;
+	bottom: 1%;
+	width: 100vw;
+	height: fit-content;
+	text-align: center;
+}
+
+.background-image-text h1{
+	font-size: 3rem;
+	font-weight: 400;
+	padding-inline: 8%;
+}
+
+.icons{
+	margin: 40px auto;
+	width: fit-content;
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+}
+
+.mid{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.btndiv{
+	display: flex;
+	gap: 35px;
+}
+
+.midBtn{
+	font-size: 1.01rem;
+	font-weight: 300;
+}
+
+.midPara{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	margin-block: 6rem;
+}
+
+.para{
+	font-size: 3.5rem;
+	font-weight: bold;
+	width: 35vw;
+	line-height: 60px;
+}
+
+.paraLink{
+	text-shadow: 2px 2px cyan;
+}
+
+.paraLink:hover{
+	color: #53BAFF;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+.midImg{
+	object-fit: contain;
+}
+
+.midArticle{
+	width: 32vw;
+	font-weight: 200;
+	line-height: 135%;
+	text-align: justify;
+}
+
+.sub-mid{
+	display: flex;
+	justify-content: space-between;
+	align-items:  first baseline;
+	gap: 20px ;
+	font-size: 0.85rem;
+	width: 74vw;
+	margin-inline: auto;
+	margin-bottom: 6rem;
+}
+
+.mid-2{
+	width: 75vw;
+	margin: 6rem auto;
+}
+
+.mid-2 h1{
+	font-size: 5rem;
+	margin: 0;
+}
+
+.mid-2 p{
+	text-align: justify;
+	margin-bottom: 2rem;
+}
