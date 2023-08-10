@@ -26,7 +26,6 @@ body{
 
 nav{
 	position: fixed;
-	/* background-color: transparent; */
 	top: -12px;
 	left: 50px;
 	width: 90vw;
@@ -34,6 +33,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	color: white;
+	z-index: 10;
 }
 
 nav h2{
@@ -137,14 +137,18 @@ nav h2{
 
 .midImg{
 	object-fit: contain;
-	opacity: 0;
-	transform: translateY(100px);
+	
 }
 
-.midImg.show{
+.hide{
+	opacity: 0;
+	transform: translateY(50px);
+}
+
+.hide.show{
 	opacity: 1;
 	transform: translateY(0);
-	transition: all ease-in-out 0.5s;
+	transition: all 0.5s ease-in-out ;
 }
 
 .midArticle{
