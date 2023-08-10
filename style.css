@@ -137,6 +137,14 @@ nav h2{
 
 .midImg{
 	object-fit: contain;
+	opacity: 0;
+	transform: translateY(100px);
+}
+
+.midImg.show{
+	opacity: 1;
+	transform: translateY(0);
+	transition: all ease-in-out 0.5s;
 }
 
 .midArticle{
